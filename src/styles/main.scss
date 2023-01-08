@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+button {
+  outline: none;
+  padding: 0;
+  color: #000000;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+
+  display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  background: transparent;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: #1e252b;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1224px;
+  margin: 0 auto;
+}
+
+.main{
+  margin-bottom: 239px;
+}
+
+@import "./blocks/*.scss";

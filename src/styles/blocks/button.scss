@@ -1,0 +1,51 @@
+.button {
+  font-family: "Poppins-SemiBold";
+  background: #ff6e30;
+  border-radius: 8px;
+
+  display: inline-block;
+  padding: 15px 28px;
+
+  color: #fdf5ff;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.4s;
+
+  &:hover {
+    background: #c05223;
+  }
+
+  &--no-bg {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  &--card {
+    padding: 11px 35px;
+  }
+
+  &--load-more {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.1);
+    font-weight: 500;
+    padding: 19px 38px;
+
+    font-size: 20px;
+    color: #ff6e30;
+  }
+
+  &--join-us {
+    padding: 15px 36px;
+  }
+
+  &--explore-more {
+    font-weight: 500;
+    font-family: "Poppins";
+    padding: 18px 39px;
+    font-size: 18px;
+  }
+
+  &--search {
+    padding: 15px 35px;
+  }
+}

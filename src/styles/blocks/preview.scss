@@ -1,0 +1,36 @@
+.preview {
+  margin-bottom: 205px;
+  background: url(../../img/preview-bg.png) no-repeat;
+  background-position: 82.6% 100%;
+  padding-bottom: 11px;
+
+  &__content{
+    width: 50%;
+  }
+
+  &__title {
+    line-height: 70px;
+    margin-bottom: 29px;
+    letter-spacing: 1.1px;
+
+    span {
+      color: #ff6e30;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: rgba(255, 255, 255, 0.55);
+
+    width: 80%;
+    margin-bottom: 60px;
+  }
+
+  &__socials {
+    margin-top: 123px;
+    margin-left: 23px;
+  }
+}
