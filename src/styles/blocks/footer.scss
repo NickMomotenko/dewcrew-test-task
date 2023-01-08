@@ -1,0 +1,68 @@
+.footer {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+  padding-top: 70px;
+  padding-bottom: 98px;
+
+  .container {
+    display: flex;
+  }
+
+  &__col {
+    flex: 1;
+    &--list {
+      display: flex;
+      flex: 2;
+      margin-left: 13px;
+      margin-top: 4px;
+    }
+  }
+
+  &__logo {
+    margin-bottom: 24px;
+  }
+
+  &__copyright {
+    margin-bottom: 23px;
+  }
+
+  &__company-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+
+    color: rgba(255, 255, 255, 0.55);
+    display: inline-block;
+    width: 65%;
+  }
+
+  &__block {
+    margin-right: 116px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &-title {
+      font-weight: 500;
+      font-size: 20px;
+      white-space: nowrap;
+
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 26px;
+    }
+
+    &-item {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-link {
+      font-size: 16px;
+
+      color: rgba(255, 255, 255, 0.55);
+    }
+  }
+}

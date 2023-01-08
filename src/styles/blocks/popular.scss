@@ -1,0 +1,45 @@
+.popular {
+  margin-bottom: 202px;
+
+  &__head {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    width: 35%;
+    margin: 0 auto;
+  }
+
+  &__list {
+    margin-bottom: -97px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin-bottom: 97px;
+
+    max-width: 394px;
+    width: calc(100% / 3 + 20px);
+
+    .card{
+      &__icon{
+        height: 72px;
+      }
+    }
+  }
+
+  &__buttons {
+    text-align: center;
+    margin-top: 101px;
+  }
+}
